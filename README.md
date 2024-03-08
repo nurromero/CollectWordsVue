@@ -1,4 +1,5 @@
 Uploaded to Microsoft Azure, using Kudu Console: 
 
- https://collectwordsnur.azurewebsites.net/
-└─────────────────°∘❉∘° ──────────────────┘
+•┈••✦ ❤ ✦••┈••┈••✦ ❤ ✦••┈••┈••✦ ❤ ✦••┈•
+https://collectwordsnur.azurewebsites.net/
+•┈••✦ ❤ ✦••┈••┈••✦ ❤ ✦••┈••┈••✦ ❤ ✦••┈•
