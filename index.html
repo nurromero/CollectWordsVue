@@ -6,18 +6,24 @@
   <title>Document</title>
 
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+ 
+  <link rel="stylesheet" href="css/styles.css">
+
+  <! -- bootstrap link, idk why den er s[ goddamn lang? Tog den fra bootstraps egen hjemmeside. -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
 <body>
-<input type="text" id="input" v-model="message">
-<div> {{ result }}</div>
+<div id="app">
+  <input type="text" v-model="word">
+<div> {{ message }}</div>
 
-<div id="output"></div>
-
-<!-- buttons-->
-<button @click="saveWord">Save</button>
-<button @click="showWord">Show</button>
+<!-- buttons, WITHIN the div app-->
+<button @click="saveWord(word)">Save</button>
+<button @click="showWord()">Show</button>
 <button @click="clearWord">Clear</button>
+</div>
+
 
 
 <!-- reference to my javascript file -->
