@@ -1,4 +1,4 @@
-Vue.createApp({
+ Vue.createApp({
   data(){
     return {
       word: '',
@@ -27,4 +27,4 @@ Vue.createApp({
     
 
   }
-}).mount('#app')
+}).mount('#app') 
