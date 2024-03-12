@@ -40,13 +40,13 @@
   <div id="app" class="container">
     <div class="row">
       <div class="col-sm-12">
-        <input type="text" v-model="word" placeholder="Type a word!">
-        <div> {{ message }}</div>
+        <input type="text" v-model="word" placeholder="Type a word!" id="wordInput">
+        <div id="messageDisplay"> {{ message }}</div>
 
         <!-- buttons, WITHIN the div app-->
-        <button @click="saveWord(word)">SAVE</button>
-        <button @click="showWord()">SHOW</button>
-        <button @click="clearWord">CLEAR</button>
+        <button @click="saveWord(word)" id="saveButton">SAVE</button>
+        <button @click="showWord()" id="showButton">SHOW</button>
+        <button @click="clearWord" id="clearButton">CLEAR</button>
       </div>
     </div>
   </div>
