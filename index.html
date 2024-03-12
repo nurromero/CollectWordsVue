@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/vue@3"></script>
+
 
   <!-- bootstrap link -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
@@ -32,7 +33,7 @@
 </head>
 
 <body>
-  <h1 class="titel"> Collecting Words </h1>
+  <h1 class="title"> Collecting Words </h1>
   <h4 class="under-titel">Try it out!</h4>
 
 
@@ -49,6 +50,14 @@
         <button @click="clearWord" id="clearButton">CLEAR</button>
       </div>
     </div>
+
+
+    <!-- Ordered list to display words -->
+    <ol>
+      <li v-for="(word, index) in words" :key="index">
+        {{ word }}
+      </li>
+    </ol>
   </div>
 
 

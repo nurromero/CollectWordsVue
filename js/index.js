@@ -3,7 +3,7 @@
     return {
       word: '',
       words: [],
-      message: null,
+      message: '',
     }
   }, 
   computed: { //Computed property
