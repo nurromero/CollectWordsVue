@@ -53,11 +53,13 @@
 
 
     <!-- Ordered list to display words -->
+    <div id="output">
     <ol>
       <li v-for="(word, index) in words" :key="index" class="word-item">
         {{ word }}
       </li>
     </ol>
+  </div>
 
 
   <!-- reference to my javascript file -->
